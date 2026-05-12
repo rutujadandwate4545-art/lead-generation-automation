@@ -34,7 +34,7 @@ def scrape_leads():
 
     df.to_excel("leads_output.xlsx", index=False)
 
-    print("✅ Leads saved successfully!")
+    print("Leads saved successfully!")
 
 # Run once
 scrape_leads()
